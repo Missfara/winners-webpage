@@ -1,0 +1,50 @@
+.odd{
+    text-transform:capitalize;
+    list-style-type:none;
+    display:flex;
+    justify-content: space-around;
+  }
+
+  body{
+    background-image:linear-gradient( rgba(4, 1, 8, 0.788),
+    rgba(1, 1, 7, 0.733)
+  ),
+    url(winner\ logo\ 1.jpg);
+   
+    background-size:cover;
+    position:relative;
+    background-repeat:no-repeat;
+    color:white;
+    text-transform:capitalize;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  margin: 2rem;
+  padding: 1.5rem;
+  }
+
+  a{
+    color:rgba(213, 236, 238, 0.626);
+    text-decoration:overline;
+  }
+  
+  a:hover{
+  color:black;
+   background-color: white; 
+    padding:10px;
+    text-decoration:none;
+  }
+  
+  a:active{
+    color:rgb(18, 242, 242);
+    text-decoration:underline;
+  }
+
+  @media (min-width:320px) and (max-width:1200px) {
+    .all{
+      border: none;
+    }
+    
+    }
+
+
